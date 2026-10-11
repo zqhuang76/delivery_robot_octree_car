@@ -375,7 +375,7 @@ angular:
 ◦ delivery_octree.launch：仿真启动配置文件
 ◦ delivery_env.world：Gazebo 仿真场景文件
 ◦ package.xml、CMakeLists.txt：ROS 功能包配置文件
-![仿真场景图](./images/gazebo_scene.png)
+![仿真场景图](https://cdn.jsdelivr.net/gh/zqhuang76/delivery_robot_octree_car@main/images/gazebo_scene.png)
 图1 Gazebo快递小车避障配送仿真场景
 Gazebo 中 TurtleBot3 小车从原点出发，依次前往 3 个预设快递配送点；激光雷达检测到障碍物时执行避障绕行；全部配送点访问完成后小车停止运动。
 8 常见问题排查
